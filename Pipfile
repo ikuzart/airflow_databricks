@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+apache-airflow = {version = "==2.3.3", extras = ["databricks"]}
+pyspark = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
